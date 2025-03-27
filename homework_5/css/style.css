@@ -1,0 +1,198 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+
+header {
+	margin: 40px 0;
+}
+
+.title {
+	font-size: 45px;
+	text-align: center;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+
+.content {
+	background-color: #231F8B;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width: 1050px;
+	width: 100%;
+	min-height: 792px;
+	padding: 112px 0px;
+	margin-inline: auto;
+	font-family: "CircularStd", sans-serif;
+	font-weight: 500;
+
+}
+
+.section {
+	min-height: 138px;
+	margin-bottom: 70px;
+}
+
+.text-section {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	color: #5A54F2;
+}
+
+.title-section {
+	font-weight: 700;
+	color: #FFF;
+	font-size: 36px;
+}
+
+.text-section-item {
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+	color: #FFF;
+	display: block;
+	min-height: 48px;
+	max-width: 765px;
+}
+
+
+.cards {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+
+}
+
+.card {
+	max-width: 230px;
+	width: 100%;
+	display: inline-block;
+	padding: 35px 40px;
+	background: #ffffff;
+	min-height: 288px;
+	vertical-align: top;
+
+}
+
+.icon {
+	margin-bottom: 20px;
+}
+
+.card-title {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+	margin-bottom: 20px;
+}
+
+.card-line {
+	width: 50px;
+	height: 2px;
+	background: #E74040;
+	margin-bottom: 20px;
+
+}
+
+.card-text {
+	color: #737373;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.4;
+	letter-spacing: 0.2px;
+}
+
+.card-text-white,
+h3.card-title-white {
+	color: #ffffff;
+}
+
+
+.card-line-white {
+	background: #ffffff;
+}
+
+
+.card-left,
+.card-bottom,
+.card-color {
+	margin-right: 40px;
+}
+
+
+.card.card-bottom,
+.card.card-right {
+	margin-top: 48px;
+	min-height: 312px;
+}
+
+
+
+.card-color {
+	background: #5A54F2;
+}
+
+.caption {
+	text-align: center;
+	font-size: 30px;
+	max-width: 200px;
+	width: 100%;
+	background-color: #231F8B;
+	padding: 20px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+}
+
+.aside {
+	max-width: 1000px;
+	min-height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #808080;
+}
+
+.wrapper {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+}
+
+.wrap {
+	width: 33.333%;
+	display: inline-block;
+	margin-bottom: 30px;
+	padding: 50px 10px;
+	vertical-align: middle;
+	font-size: 16px;
+}
+
+.wrap-auto {
+	max-height: 70px;
+	overflow: auto;
+	background-color: #5A54F2;
+}
+
+.wrap-visible {
+	max-height: 50px;
+	overflow: visible;
+	background-color: #5A54F2;
+}
+
+.wrap-hidden {
+	max-height: 30px;
+	overflow: hidden;
+	background-color: #5A54F2;
+}
+
+main {
+	margin-bottom: 50px;
+}
