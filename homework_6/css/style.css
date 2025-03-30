@@ -1,0 +1,268 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 36px;
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #7fffd4;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.container-text {
+	max-width: 648px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.content-text {
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #808080;
+}
+
+.content-text ul {
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+
+.content-text p {
+	margin-bottom: 20px;
+}
+
+.content-text li {
+	margin-bottom: 14px;
+	background: url("../img/сheck_1.svg") 0 0 / 20px 20px no-repeat;
+	padding-left: 28px;
+	min-height: 20px;
+}
+
+.containers-hydra {
+	background-color: #302C42;
+	background-image: url("../img/vector_1.png"), url("../img/vector_2.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center 10%, center 78%;
+	margin-bottom: 50px;
+
+}
+
+.containers-hydra-items {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+
+}
+
+.container-hydra {
+	max-width: 1440px;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 50px 50px;
+}
+
+
+.container-hydra-img {
+	max-width: 524px;
+	width: 100%;
+	margin-right: 108px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	border-radius: 45.80% 19.09% 45.80% 19.09% / 43.09% 17.95% 43.09% 17.95%;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-hydra-img img {
+	width: auto;
+	height: auto;
+}
+
+
+.container-hydra-content {
+	max-width: 630px;
+	width: 100%;
+	display: inline-block;
+	margin-top: 47px;
+	vertical-align: top;
+}
+
+.container-hydra-content h2 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.container-hydra-content h3 {
+	color: rgba(255, 255, 255, 0.95);
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 42px;
+}
+
+.container-hydra-content p {
+	max-width: 630px;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: 28px;
+	line-height: 1.6;
+	/* в макеті вказано line-height: normal, але воно зовсім виходе не схоже тому ставлю 1.6*/
+	font-weight: 400;
+}
+
+.container-hydra-button {
+	width: 214px;
+	height: 48px;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	color: #343045;
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 19px;
+}
+
+.containers-contacts {
+	background: #302C42;
+	padding: 50px 0;
+	margin-bottom: 50px;
+
+}
+
+.containers-contact {
+	max-width: 1272px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+
+
+}
+
+.container-contact {
+	margin-left: -5px;
+	margin-right: -5px;
+	font-size: 0;
+
+}
+
+
+.content-contact.location {
+	width: 35%;
+	display: inline-block;
+	padding: 49px 0 48px 109px;
+	background-image: url("../img/Location-Icon.png");
+	background-repeat: no-repeat;
+	background-position: 39px center;
+
+}
+
+.content-contact.tel {
+	width: 29%;
+	display: inline-block;
+	background-image: url("../img/vector_5.png"), url("../img/phone-call.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 center, 40px center;
+	padding: 56px 0 52px 136px;
+
+}
+
+.content-contact.mail {
+	width: 36%;
+	display: inline-block;
+	background-image: url("../img/vector_5.png"), url("../img/mail.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 center, 40px center;
+	padding: 50px 0 52px 139px;
+}
+
+.content-contact {
+	vertical-align: top;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #FFF;
+	padding: 0px 5px;
+}
+
+.content-contact p {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	max-width: 245px;
+}
+
+.content-contact a {
+	max-width: 290px;
+
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #8176AF;
+	border: 3px dashed #343045;
+	box-shadow: 10px 10px 8px 5px rgba(192, 183, 232, 0.9);
+	margin: 50px 50px;
+	display: inline-block;
+}
+
+.circle p {
+	text-align: center;
+	padding-top: 80px;
+
+}
+
+.crystal {
+	width: 200px;
+	height: 50px;
+	border-radius: 20px 0;
+	background-color: #211E2E;
+	opacity: 0.2;
+	display: inline-block;
+}
+
+.crystal p {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.scrol {
+	max-width: 500px;
+	background-image: url("../img/bc_.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	background-attachment: fixed;
+	margin: 50px 50px;
+}
+
+.footer {
+	min-height: 50px;
+	background-color: #8176AF;
+	text-align: center;
+	padding-top: 30px;
+}
