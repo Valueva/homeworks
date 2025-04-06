@@ -1,0 +1,426 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,700&display=swap");
+
+
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 36px;
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #7fffd4;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.page {
+	font-family: "Inter", sans-serif;
+}
+
+.business {
+	background: #412672;
+	padding: 61px 50px 102px 30px;
+	margin-bottom: 50px;
+
+
+}
+
+.business-container {
+	max-width: 1201px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.business-text {
+	max-width: 400px;
+	color: #ffff;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 1.21;
+	margin-bottom: 31px;
+}
+
+.business-text strong {
+	font-weight: 700;
+}
+
+
+
+.business-items {
+	margin: 0 -20px -20px 0px;
+	font-size: 0;
+}
+
+.business-box {
+	padding: 0 20px 20px 0px;
+	display: inline-block;
+	width: 33.333%;
+	font-size: 15px;
+}
+
+.business-content {
+	min-height: 476px;
+	height: 100%;
+	padding: 20px;
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+	line-height: 1.27;
+	vertical-align: top;
+	background: #FFF;
+
+}
+
+
+.business-content img {
+	/* max-width: 347px; не нужно так как изображение ограничено по ширине карточкой*/
+	width: 100%;
+	height: 266px;
+	/* изменить height - фіксовано, тимчасове вирішення для img*/
+}
+
+.business-content h3 {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1.21;
+}
+
+.business-content p:last-child {
+	color: #FE3F3F;
+}
+
+.business-content p:last-child:hover {
+	text-decoration: underline;
+}
+
+.business-content>*:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.business-content:hover {
+	background: #FFBE48;
+}
+
+
+.education {
+	max-width: 549px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.education-section-text {
+	max-width: 518px;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #412672;
+}
+
+.education-title {
+	font-size: 34px;
+	font-weight: 400;
+	line-height: 1.21;
+	margin-bottom: 20px;
+}
+
+.education-title strong {
+	font-weight: 700;
+}
+
+.education-text {
+	font-size: 22px;
+	line-height: 1.21;
+	font-weight: 400;
+}
+
+.education-section-list {
+	max-width: 549px;
+	width: 100%;
+	font-size: 20px;
+	/* line-height: 2.55; */
+	/* большой line-height сделать через margin */
+	color: #4F4F4F;
+
+}
+
+.education-list-li:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.education-list-li {
+	padding-left: 46px;
+}
+
+
+
+.education-list-li::before {
+	content: "";
+	background: url("../img/icon.png") no-repeat;
+	width: 29px;
+	height: 29px;
+	vertical-align: top;
+	margin: -3px 15px 0 -46px;
+}
+
+.Game-container {
+	margin-bottom: 50px;
+}
+
+.Game {
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	color: #FE3F3F;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.boxs {
+	max-width: 800px;
+	margin: 0 auto;
+	background: url("../img/bc_.jpg");
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+
+}
+
+
+.box_01 {
+	width: 70px;
+	height: 50px;
+	background-color: #4F4F4F;
+	padding-top: 10px;
+
+}
+
+.box_02 {
+	width: 90px;
+	height: 30px;
+	margin-left: 70px;
+	margin-top: -30px;
+}
+
+.box_03 {
+	width: 20px;
+	height: 70px;
+	margin-left: 160px;
+	margin-top: -30px;
+}
+
+.box_04 {
+	width: 60px;
+	height: 25px;
+	margin-left: 180px;
+	margin-top: -25px;
+}
+
+.box_05 {
+	width: 30px;
+	height: 120px;
+	margin-left: 240px;
+	margin-top: -25px;
+}
+
+.box_06 {
+	width: 200px;
+	height: 15px;
+	margin-left: 40px;
+	margin-top: -15px;
+}
+
+.box_07 {
+	width: 25px;
+	height: 70px;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.box_08 {
+	width: 75px;
+	height: 15px;
+	margin-left: 40px;
+	margin-top: 0px;
+}
+
+.box_09 {
+	width: 95px;
+	height: 25px;
+	margin-left: 115px;
+	margin-top: -15px;
+}
+
+.box_10 {
+	width: 10px;
+	height: 125px;
+	margin-left: 210px;
+	margin-top: -25px;
+}
+
+.box_11 {
+	width: 150px;
+	height: 10px;
+	margin-left: 210px;
+	margin-top: 0px;
+}
+
+.box_12 {
+	width: 75px;
+	height: 50px;
+	padding-top: 10px;
+	margin-left: 360px;
+	margin-top: -10px;
+	text-align: center;
+}
+
+.box_13 {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+
+
+[class*="box_"]:not(.box_01) {
+	visibility: hidden;
+	background: #7fffd4;
+}
+
+.boxs>*:hover+*,
+.boxs>*:hover {
+	visibility: visible;
+}
+
+.practice {
+	width: 100%;
+	background-color: aquamarine;
+	padding: 50px;
+
+}
+
+.practice>*:not(:last-child) {
+	margin-right: 20px;
+
+}
+
+.practice>* {
+	vertical-align: top;
+	display: inline-block;
+}
+
+.hover,
+.hover-2,
+.active,
+.focus,
+.target-link {
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #FE3F3F;
+	text-align: center;
+	padding: 10px;
+}
+
+.hover:hover {
+	font-weight: 700;
+	box-shadow: 10px 10px 10px #4F4F4F;
+}
+
+.hovers {
+	display: inline-block;
+}
+
+.hover-2 {
+	background-color: #FFBE48;
+	margin-bottom: 20px;
+
+}
+
+.hover-img {
+	width: 200px;
+	visibility: hidden;
+
+}
+
+.hovers:hover .hover-img {
+	visibility: visible;
+}
+
+.hover-2:hover {
+	color: #FE3F3F;
+	text-decoration: underline;
+	margin-left: 45px;
+}
+
+.active:hover {
+	text-decoration: underline;
+}
+
+.active:active {
+	background-color: #FFBE48;
+	box-shadow: 10px 10px 10px #008000;
+}
+
+.visited {
+	width: 100px;
+	background-color: #8176AF;
+	padding: 30px;
+}
+
+.visit {
+	margin-bottom: 20px;
+	color: #0000ff
+}
+
+.visit:visited {
+	color: #4F4F4F;
+	/* При використанні браузера Microsoft Edge посилання у стані "відвіданого" змінює колір все працює,
+	 а от у Google Chrome ні */
+}
+
+.visit:hover {
+	text-decoration: underline;
+}
+
+.visit:active {
+	text-shadow: 5px 5px 5px #4F4F4F;
+}
+
+.focus:focus {
+	text-decoration: underline;
+	color: #008000;
+	border: 2px dashed #000;
+}
+
+.target-link {
+	margin-bottom: 30px;
+}
+
+.target-link:hover {
+	text-decoration: underline;
+}
+
+.targets-inner {
+	width: 200px;
+	height: 200px;
+	background-color: #008000;
+	visibility: hidden;
+}
+
+
+.targets:target .targets-inner {
+	visibility: visible;
+}
+
+.footer {
+	min-height: 50px;
+	background-color: #8176AF;
+	text-align: center;
+	padding-top: 30px;
+}
