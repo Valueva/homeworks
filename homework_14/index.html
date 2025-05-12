@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson_14</title>
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1> Form </h1>
+			</header>
+
+			<main class="main">
+				<div class="billing">
+					<div class="billing__container">
+						<form action="#" class="billing__form form">
+							<div class="form__info info">
+								<h2 class="info__title">Billing Information</h2>
+								<div class="info__row">
+									<label class="info__label">
+										<span class="info__text">First name</span>
+										<input class="info__input" type="text" name="form[]"
+											placeholder="Your first name" required>
+									</label>
+									<label class="info__label">
+										<span class="info__text">Last name</span>
+										<input class="info__input" type="text" name="form[]"
+											placeholder="Your last name" required>
+									</label>
+									<label class="info__label">
+										<span class="info__text">Company Name <span>(optional)</span></span>
+										<input class="info__input" type="text" name="form[]"
+											placeholder="Company name" required>
+									</label>
+									<label class="info__label info__label--big">
+										<span class="info__text">Street Address</span>
+										<input class="info__input" type="text" name="form[]"
+											placeholder="Street Address" required>
+									</label>
+									<label class="info__label">
+										<span class="info__text">Country / Region</span>
+										<select name="form[]" class="info__select">
+											<option value selected>Select</option>
+										</select>
+									</label>
+									<label class="info__label">
+										<span class="info__text">States</span>
+										<select name="form[]" class="info__select">
+											<option value selected>Selects</option>
+										</select>
+									</label>
+									<label class="info__label">
+										<span class="info__text">Zip Code</span>
+										<input class="info__input" type="text" name="form[]"
+											placeholder="Zip Code" required>
+									</label>
+									<label class="info__label info__label--width">
+										<span class="info__text">Email</span>
+										<input class="info__input" type="email" name="form[]"
+											placeholder="Email Address" required>
+									</label>
+									<label class="info__label info__label--width">
+										<span class="info__text">Phone</span>
+										<input class="info__input" type="tel" name="form[]"
+											placeholder="Phone number" required>
+									</label>
+									<label class="info__checkbox checkbox">
+										<input class="checkbox__input" type="checkbox" name="form[]">
+										<span class="checkbox__text">Ship to a different address</span>
+									</label>
+								</div>
+
+								<h2 class="info__title">Additional Info</h2>
+								<div class="info__row">
+									<label class="info__label info__label--big">
+										<span class="info__text">Order Notes (Optional)</span>
+										<textarea class="info__input info__input--textarea" name="form[]"
+											placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+									</label>
+								</div>
+							</div>
+							<div class="form__order order">
+								<h2 class="order__title">Order Summery</h2>
+								<div class="order__basket">
+									<div class="order__product product">
+										<div class="product__img">
+											<img src="img/green-capsicum.webp" alt="green-capsicum">
+										</div>
+										<div class="product__info">
+											<p>Green Capsicum</p>
+											<p>x5</p>
+										</div>
+										<div class="product__price">$70.00</div>
+									</div>
+									<div class="order__product product">
+										<div class="product__img">
+											<img src="img/red-capsicum.webp" alt="red-capsicum">
+										</div>
+										<div class="product__info">
+											<p>Red Capsicum</p>
+											<p>x1</p>
+										</div>
+										<div class="product__price">$14.00</div>
+									</div>
+
+								</div>
+								<div class="order__total">
+									<div class="order__row">
+										<p class="order__text">Subtotal:</p>
+										<p class="order__value">$84.00</p>
+									</div>
+									<div class="order__row">
+										<p class="order__text">Shipping:</p>
+										<p class="order__value">Free</p>
+									</div>
+									<div class="order__row order__row--padding">
+										<p class="order__text order__text--font">Total:</p>
+										<p class="order__value order__value--font">$84.00</p>
+									</div>
+								</div>
+								<h2 class="order__title order__title--margin">Payment Method</h2>
+								<div class="order__checkbox">
+									<div class="order__item">
+										<input type="checkbox" class="order__input" checked name="form[]"
+											value="1" id="checkbox-01">
+										<label for="checkbox-01" class="order__label">Cash on Delivery</label>
+									</div>
+									<div class="order__item">
+										<input type="checkbox" class="order__input" name="form[]"
+											value="1" id="checkbox-02">
+										<label for="checkbox-02" class="order__label">Paypal</label>
+									</div>
+									<div class="order__item">
+										<input type="checkbox" class="order__input" name="form[]"
+											value="1" id="checkbox-03">
+										<label for="checkbox-03" class="order__label">Amazon Pay</label>
+									</div>
+								</div>
+								<button class="order__button" type="submit">Place Order</button>
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</main>
+			<footer class="footer">Tsukanova Olha</footer>
+		</div>
+	</body>
+
+</html>
