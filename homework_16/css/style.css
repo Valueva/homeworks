@@ -229,7 +229,7 @@ body {
 		top: 0;
 		right: -100%;
 		z-index: 3;
-		background-color: #dd8258;
+		background-color: #dd825877;
 		padding: 85px 15px 30px 15px;
 		overflow: auto;
 		transition: all 0.3s;
@@ -267,6 +267,10 @@ body {
 		transform: rotate(45deg) translateY(2px);
 	}
 
+	body.menu-open {
+		overflow: hidden;
+	}
+
 	.menu__list {
 		flex-direction: column;
 		align-items: stretch;
@@ -289,12 +293,14 @@ body {
 .page {
 	position: relative;
 	z-index: 2;
+	margin-bottom: 20px;
 
 }
 
 .page__image {
 	aspect-ratio: 3048 / 1140;
-	height: 100vh;
+	height: 100%;
+
 }
 
 .page__img {
@@ -306,6 +312,16 @@ body {
 	z-index: 1;
 	object-fit: cover;
 
+}
+
+.page__contant {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 18px;
+}
+
+.main {
+	margin-bottom: 20px;
 }
 
 footer {
