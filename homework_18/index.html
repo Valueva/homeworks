@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson_18</title>
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<h1>semantics</h1>
+			</header>
+			<main class="main">
+				<div class="page">
+					<div class="page__container">
+						<article class="page__article article">
+							<section class="article__header header-article">
+								<img class="header-article__img" src="img/orange.webp" alt="orange">
+								<ul class="header-article__list">
+									<li class="header-article__item">
+										<a href="#"
+											class="header-article__link header-article__link--tag">Food</a>
+									</li>
+									<li class="header-article__item">
+										<a href="#"
+											class="header-article__link header-article__link--user"><span>By</span>
+											Admin</a>
+									</li>
+									<li class="header-article__item">
+										<a href="#"
+											class="header-article__link header-article__link--chat"><span>65</span>
+											Comments</a>
+									</li>
+								</ul>
+								<h2 class="header-article__title">Maecenas tempor urna sed quam mollis,
+									a placerat dui fringill Suspendisse.</h2>
+								<figure class="header-article__author author">
+									<a href="#" class="author__avatar">
+										<img class="author__img" src="img/avatar.png"
+											alt="A woman in a white coat sits at the table, smiling">
+									</a>
+									<figcaption class="author__info">
+										<h3 class="author__title"><a href="#">Cameron Williamson</a></h3>
+										<time class="author__data" datetime="2021-04-04">4 April, 2021</time>
+										<p>6 min read</p>
+									</figcaption>
+								</figure>
+								<ul class="header-article__social social">
+									<li class="social__item">
+										<a href="#" target="_blank" aria-label="go to facebook profile"><img
+												src="#" alt="#"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" aria-label="go to twitter profile"><img
+												src="#" alt="#"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" aria-label="go to pinterest profile"><img
+												src="#" alt="#"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" aria-label="go to instagram profile"><img
+												src="#" alt="#"></a>
+									</li>
+									<li class="social__item">
+										<a href="#" target="_blank" aria-label="go to link profile"><img
+												src="#" alt="#"></a>
+									</li>
+								</ul>
+							</section>
+							<section class="article__content content-article">
+								<h3 class="content-article__title">Maecenas lacinia felis nec placerat
+									sollicitudin. Quisque placerat
+									dolor at scelerisque imperdiet. Phasellus tristique felis dolor.</h3>
+								<p>Maecenas elementum in risus sed condimentum. Duis convallis ante ac
+									tempus maximus. Fusce malesuada sed velit ut dictum. Morbi faucibus
+									vitae orci at euismod. Integer auctor augue in erat vehicula, quis
+									fermentum ex finibus.
+								</p>
+								<p>Mauris pretium elit a dui pulvinar, in ornare sapien euismod. Nullam
+									interdum nisl ante, id feugiat quam euismod commodo. Sed ultrices
+									lectus ut iaculis rhoncus. Aenean non dignissim justo, at fermentum
+									turpis. Sed molestie, ligula ut molestie ultrices, tellus ligula
+									viverra neque, malesuada consectetur diam sapien volutpat risus.
+									Quisque eget tortor lobortis, facilisis metus eu, elementum est. Nunc
+									sit amet erat quis ex convallis suscipit. ur ridiculus mus.
+								</p>
+								<div class="content-article__image">
+									<img src="img/orange-02.webp" alt="orange">
+									<img src="img/mango.webp" alt="mango">
+								</div>
+								<p>Sed dictum non nulla eu imperdiet. Duis elit libero, vulputate quis
+									vehicula ut, vestibulum ut mauris. Nullam non felis varius dui rutrum
+									rutrum in a nisi. Suspendisse elementum rutrum lorem sed luctus. Proin
+									iaculis euismod metus non sollicitudin. Duis vel luctus lacus. Nullam
+									faucibus iaculis convallis. In ullamcorper nibh ipsum, eget lacinia
+									eros pulvinar a. Integer accumsan arcu nec faucibus ultricies.
+								</p>
+							</section>
+							<section class="article__banner banner-article">
+								<div class="banner-article__image">
+									<img src="img/banner.webp" alt="A colorful arrangement of vegetables">
+								</div>
+								<div class="banner-article__info">
+									<h3 class="banner-article__title"><span>Summer Sales</span>Fresh
+										Fruit</h3>
+									<a href="#" class="banner-article__link">Shop Now</a>
+								</div>
+								<div class="banner-article__label">
+									<p>up to</p>
+									<strong>56%</strong>
+									<p>Off</p>
+								</div>
+							</section>
+							<section class="article__form form-article">
+								<h3 class="form-article__title">Leave a Comment</h3>
+								<form action="#" method="post" class="form-article__forms">
+									<div class="form-article__boxs">
+										<div class="form-article__box">
+											<label class="form-article__label" for="full-name">Full Name</label>
+											<input type="text" class="form-article__input" id="full-name"
+												required
+												autocomplete="off" placeholder="Zakir Hossen" name="form[]">
+										</div>
+										<div class="form-article__box">
+											<label class="form-article__label" for="email">Email</label>
+											<input type="email" class="form-article__input" id="email" required
+												autocomplete="off" placeholder="zakirsoft.20@g|" name="form[]">
+										</div>
+									</div>
+									<div class="form-article__boxs">
+										<div class="form-article__box form-article__box--big">
+											<label class="form-article__label" for="message">Message</label>
+											<textarea class="form-article__textarea" id="message"
+												placeholder="Write your comment here…" name="form[]">
+											</textarea>
+										</div>
+									</div>
+									<div class="form-article__checkbox">
+										<label class="form-article__label form-article__label--checkbox"
+											for="checkbox-01">ESave my name and email in this browser for the
+											next time I comment.</label>
+										<input type="checkbox"
+											class="form-article__input form-article__input--checkbox"
+											id="checkbox-01"
+											name="form[]">
+									</div>
+									<button class="form-article__button" type="submit">Post
+										Comments</button>
+								</form>
+							</section>
+							<section class="article__comment comment-article">
+								<h3 class="comment-article__title">Comments</h3>
+								<article class="comment-article__body">
+									<figure class="comment-article__figure">
+										<img class="comment-article__img" src="img/annette.png"
+											alt="man against the background of nature">
+										<figcaption class="comment-article__user">
+											<div class="comment-article__info">
+												<h4 class="comment-article__name">Annette Black</h4>
+												<time class="comment-article__date" datetime="2021-04-26">26 Apr,
+													2021</time>
+											</div>
+											<p>In a nisi commodo, porttitor ligula consequat, tincidunt dui.
+												Nulla volutpat, metus eu aliquam malesuada, elit libero venenatis
+												urna, consequat maximus arcu diam non diam.</p>
+										</figcaption>
+									</figure>
+								</article>
+								<article class="comment-article__body">
+									<figure class="comment-article__figure">
+										<img class="comment-article__img" src="img/devon.png"
+											alt="man with a camera">
+										<figcaption class="comment-article__user">
+											<div class="comment-article__info">
+												<h4 class="comment-article__name">Devon Lane</h4>
+												<time class="comment-article__date" datetime="2021-04-24">24 Apr,
+													2021</time>
+											</div>
+											<p>Quisque eget tortor lobortis, facilisis metus eu, elementum est.
+												Nunc sit amet erat quis ex convallis suscipit. Nam hendrerit, velit
+												ut aliquam euismod, nibh tortor rutrum nisi, ac sodales nunc eros
+												porta nisi. Sed scelerisque, est eget aliquam venenatis, est sem
+												tempor eros.</p>
+										</figcaption>
+									</figure>
+								</article>
+
+								<article class="comment-article__body">
+									<figure class="comment-article__figure">
+										<img class="comment-article__img" src="img/jacob.png"
+											alt="A man in a gray shirt">
+										<figcaption class="comment-article__user">
+											<div class="comment-article__info">
+												<h4 class="comment-article__name">Jacob Jones</h4>
+												<time class="comment-article__date" datetime="2021-04-20">20 Apr,
+													2021</time>
+											</div>
+											<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+												posuere cubilia curae.
+
+											</p>
+										</figcaption>
+									</figure>
+								</article>
+
+								<article class="comment-article__body">
+									<figure class="comment-article__figure">
+										<img class="comment-article__img" src="img/jane.png"
+											alt="A man with curly hair">
+										<figcaption class="comment-article__user">
+											<div class="comment-article__info">
+												<h4 class="comment-article__name">Jane Cooper</h4>
+												<time class="comment-article__date" datetime="2021-04-18">18 Apr,
+													2021</time>
+											</div>
+											<p>Pellentesque feugiat, nibh vel vehicula pretium, nibh nibh
+												bibendum elit, a volutpat arcu dui nec orci. Aenean dui odio,
+												ullamcorper quis turpis ac, volutpat imperdiet ex..</p>
+										</figcaption>
+									</figure>
+								</article>
+
+								<article class="comment-article__body">
+									<figure class="comment-article__figure">
+										<img class="comment-article__img" src="img/darrell.png"
+											alt="A stylish woman ">
+										<figcaption class="comment-article__user">
+											<div class="comment-article__info">
+												<h4 class="comment-article__name">Darrell Steward</h4>
+												<time class="comment-article__date" datetime="2021-04-07">07 Apr,
+													2021</time>
+											</div>
+											<p>Nulla molestie interdum ultricies.</p>
+										</figcaption>
+									</figure>
+								</article>
+								<a href="#" class="comment-article__link">Load More</a>
+							</section>
+						</article>
+						<aside class="page__sidebar sidebar">
+							<div class="sidebar__search search">
+								<form action="#" method="post" class="search__form">
+									<input class="search__input" type="search" name="form[]"
+										placeholder="Search..." autocomplete="off">
+								</form>
+							</div>
+							<section class="sidebar__categories categories">
+								<h2 class="categories__title">Top Categories</h2>
+								<ul class="categories__list">
+									<li class="categories__items">
+										<a href="#" class="categories__link">Fresh Fruit</a>
+										<span>(134)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Vegetables</a>
+										<span>(150)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Cooking</a>
+										<span>(54)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Snacks</a>
+										<span>(47)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Beverages</a>
+										<span>(43)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Beauty & Health</a>
+										<span>(38)</span>
+									</li>
+									<li class="categories__items">
+										<a href="#" class="categories__link">Bread & Bakery</a>
+										<span>(15)</span>
+									</li>
+								</ul>
+							</section>
+							<section class="sidebar__tag popular-tag">
+								<h2 class="popular-tag__title">Popular Tag</h2>
+								<div class="popular-tag__links">
+									<a href="#" class="popular-tag__link">Healthy</a>
+									<a href="#" class="popular-tag__link">Low fat</a>
+									<a href="#" class="popular-tag__link">Vegetarian</a>
+									<a href="#" class="popular-tag__link">Bread</a>
+									<a href="#" class="popular-tag__link">Kid foods</a>
+									<a href="#" class="popular-tag__link">Vitamins</a>
+									<a href="#" class="popular-tag__link">Snacks</a>
+									<a href="#" class="popular-tag__link">Tiffin</a>
+									<a href="#" class="popular-tag__link">Meat</a>
+									<a href="#" class="popular-tag__link">Launch</a>
+									<a href="#" class="popular-tag__link">Dinner</a>
+
+								</div>
+							</section>
+							<section class="sidebar__gallery gallery">
+								<h2 class="gallery__title">Our Gallery</h2>
+								<div class="gallery__box">
+									<a href="#" class="gallery__img">
+										<img src="img/vegetables.webp" alt="vegetables">
+									</a>
+									<a href="#" class="gallery__img">
+										<img src="img/cabbage.webp" alt="cabbage">
+									</a>
+									<a href="#" class="gallery__img">
+										<img src="img/assorted.webp" alt="plate with vegetables">
+									</a>
+									<a href="#" class="gallery__img">
+										<img src="img/pepper.webp" alt="pepper">
+									</a>
+									<a href="#" class="gallery__img">
+										<img src="img/carrot.webp" alt="carrot">
+									</a>
+
+									<a href="#" class="gallery__img">
+										<img src="img/peas.webp" alt="peas">
+									</a>
+
+									<a href="#" class="gallery__img">
+										<img src="img/orange-aside.webp" alt="orange">
+									</a>
+
+									<a href="#" class="gallery__img">
+										<img src="img/zucchini.webp" alt="zucchini">
+									</a>
+								</div>
+							</section>
+							<section class="sidebar__recent recent">
+								<h2 class="recent__title">Recently Added</h2>
+								<figure class="recent__figure">
+									<a href="#" class="recent__image">
+										<img src="img/mango-05.webp" alt="mango">
+									</a>
+									<figcaption class="recent__info">
+										<h2 class="recent__caption">
+											Curabitur porttitor orci eget nequ accumsan.
+										</h2>
+										<time class="recent__time" datetime="2021-04-25">Apr 25, 2021</time>
+									</figcaption>
+								</figure>
+
+								<figure class="recent__figure">
+									<a href="#" class="recent__image">
+										<img src="img/orange-05.webp" alt="orange">
+									</a>
+									<figcaption class="recent__info">
+										<h2 class="recent__caption">
+											Donec mattis arcu faucibus suscipit viverra.
+										</h2>
+										<time class="recent__time" datetime="2021-04-25">Apr 25, 2021</time>
+									</figcaption>
+								</figure>
+
+								<figure class="recent__figure">
+									<a href="#" class="recent__image">
+										<img src="img/berries.webp" alt="berries">
+									</a>
+									<figcaption class="recent__info">
+										<h2 class="recent__caption">
+											Quisque posuere tempus rutrum. Integer velit ex.
+										</h2>
+										<time class="recent__time" datetime="2021-04-25">Apr 25, 2021</time>
+									</figcaption>
+								</figure>
+							</section>
+						</aside>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">Tsukanova Olha</footer>
+		</div>
+	</body>
+
+</html>

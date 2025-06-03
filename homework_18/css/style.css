@@ -1,0 +1,49 @@
+@import url("reset.css");
+
+
+
+
+/* основні стилі */
+body {
+	font-family: "Poppins", sans-serif;
+	color: #000;
+}
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper>main {
+	flex-grow: 1;
+}
+
+[class*="__container"] {
+	max-width: 1350px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+[class*="--margin"] {
+	margin-bottom: 60px;
+}
+
+/* ----------------------- */
+
+header,
+footer {
+	min-height: 50px;
+	background-color: rgb(153, 158, 156);
+	text-align: center;
+	font-size: 36px;
+	padding: 10px;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+/* ----------------------- */
