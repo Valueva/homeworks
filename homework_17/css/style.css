@@ -37,7 +37,8 @@ body {
 /* ----------------------- */
 
 header,
-footer {
+footer,
+.main__title {
 	min-height: 50px;
 	background-color: rgb(153, 158, 156);
 	text-align: center;
@@ -455,10 +456,10 @@ header {
 		visibility: visible;
 		opacity: 1;
 		border-color: #2C742F;
+		bottom: 5px;
 
 	}
 
-	.card-benefits .info-benefits p,
 	.card-benefits .info-benefits__rating {
 		visibility: hidden;
 		opacity: 0;
@@ -497,7 +498,7 @@ header {
 	max-width: 1230px;
 }
 
-.flowers__grid {
+.flowers__grid--version1 {
 	display: grid;
 	grid-template-columns: 33.33% 1fr 1fr;
 	gap: 14px 30px;
@@ -518,7 +519,7 @@ header {
 	grid-area: title
 }
 
-.flowers__card {}
+
 
 
 .flowers__card--item-1 {
@@ -681,6 +682,42 @@ header {
 	}
 }
 
+/* вариант 2 */
+
+
+.flowers__grid--version2 {
+	display: grid;
+	grid-template-columns: 33.33% 1fr;
+	gap: 31px;
+}
+
+.flowers__column--item1 {
+	order: 1;
+	display: grid;
+	gap: 14px 30px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.flowers__column--item2 {
+	order: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+
+
+}
+
+
+
+.flowers__title--version2 {
+	grid-column: 1/-1;
+	grid-row: 1/2;
+}
+
+.flowers__links--version2 {
+	padding-top: 40px;
+}
+
 /*---------------*/
 
 @media (max-width:1350.98px) {
@@ -731,14 +768,18 @@ header {
 
 	}
 
+	.benefits__card {
+		grid-template-columns: 42% 1fr;
+	}
+
 	.flowers__title {
 		font-size: 40px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
 
-	.flowers__grid {
-		/* grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr)); */
+	.flowers__grid--version1 {
+
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas:
 			"title title"
@@ -754,6 +795,29 @@ header {
 		min-height: 100%;
 	}
 
+	.flowers__grid--version2 {
+		grid-template-columns: 1fr;
+		column-gap: 0;
+
+	}
+
+
+
+	.flowers__column--item2 {
+		order: 1;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.flowers__links--version2 {
+		grid-column: 1/3;
+	}
+
+	.flowers__column--item1 {
+		order: 0;
+	}
+
+
 }
 
 
@@ -766,7 +830,7 @@ header {
 		margin-bottom: 15px;
 	}
 
-	.flowers__grid {
+	.flowers__grid--version1 {
 		grid-template-columns: 1fr;
 		grid-template-areas:
 			"title"
@@ -786,8 +850,18 @@ header {
 		font-size: 30px;
 	}
 
+	.flowers__column--item2 {
+		grid-template-columns: 1fr;
+	}
 
+	.flowers__column--item1 {
+		grid-template-columns: 1fr;
+	}
 
+	.flowers__links--version2 {
+		grid-column: 1/2;
+		grid-row: 3/4;
+	}
 }
 
 @media (max-width:645.98px) {
