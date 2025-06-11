@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson_19</title>
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header header--margin">
+				<h1>Relative units
+					<a href="#one">One</a>
+					<a href="#two">Two</a>
+				</h1>
+
+			</header>
+			<main class="page">
+				<div class="page__container">
+					<div class="page__hero">
+						<img src="img/clip-path.webp" alt="Eiffel Tower">
+					</div>
+					<section class="percent percent--margin">
+						<h2 class="percent__title title" id="one">px + percent</h2>
+						<div class="percent__box">
+							<div class="percent__item percent__item--01">
+								<p>width: 450px</p>
+								<p>height: 100px</p>
+								<p>padding: 15px</p>
+							</div>
+							<div class="percent__item percent__item--02">
+								<p>width: 45%</p>
+								<p>height: 50%</p>
+								<p>padding: 1%</p>
+							</div>
+							<div class="percent__item percent__item--03">
+								<p>position:absolute (right: 10%)</p>
+								<p>width: 50%</p>
+								<p>height: 45%</p>
+								<p>padding: 1%</p>
+							</div>
+
+							<div class="percent__item percent__item--04">
+								<p>transform: translate(-20%)</p>
+								<p>width: 450px</p>
+								<p>height: 100px</p>
+								<p>padding: 15px</p>
+							</div>
+						</div>
+					</section>
+					<section class="rem rem--margin">
+						<h2 class="rem__title title">rem + em</h2>
+						<div class="rem__text">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+								soluta. Soluta cumque hic impedit ipsum distinctio modi. Incidunt,
+								ullam. Dignissimos, minima ducimus. Fugit minima, ducimus eveniet
+								dignissimos placeat culpa quis.</p>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+								soluta. Soluta cumque hic impedit ipsum distinctio modi. Incidunt,
+								ullam. Dignissimos, minima ducimus. Fugit minima, ducimus eveniet
+								dignissimos placeat culpa quis.</p>
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit,
+								soluta. </p>
+						</div>
+					</section>
+					<section class="viewport viewport--margin">
+						<h2 class="viewport__title title" id="two">VW, VH, SVH, VMAX, VMIN</h2>
+						<div class="viewport__box">
+							<div class="viewport__item viewport__item--01">
+								<p>width: 20vw</p>
+								<p>height: 20vh</p>
+								<p>font-size: 1.6vw</p>
+							</div>
+							<div class="viewport__item viewport__item--02">
+								<p>width: 20svh</p>
+								<p>height: 20svh</p>
+								<p>font-size: 1.6svh</p>
+							</div>
+							<div class="viewport__item viewport__item--03">
+								<p>width: 20vmax</p>
+								<p>height: 20vmax</p>
+								<p>font-size: 1.6vmax</p>
+							</div>
+							<div class="viewport__item viewport__item--04">
+								<p>width: 20vmin</p>
+								<p>height: 20vmin</p>
+								<p>font-size: 1.6vmin</p>
+							</div>
+						</div>
+					</section>
+					<section class="clamp clamp--margin">
+						<h2 class="clamp__title title">clamp</h2>
+						<div class="clamp__box">
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+								corporis ipsa consequuntur animi similique
+							</p>
+						</div>
+					</section>
+					<section class="minmax max--margin">
+						<h2 class="minmax__title title">min + max</h2>
+						<div class="minmax__box minmax__box--min">width: min(300px, 100%);</div>
+						<div class="minmax__box minmax__box--max">width: max(300px, 100%)</div>
+					</section>
+
+					<section class="cursor cursor--margin">
+						<h2 class="cursor__title title">cursor</h2>
+						<div class="cursor__box">
+							<div class="cursor__card cursor__card--help">cursor help</div>
+							<div class="cursor__card cursor__card--pointer">cursor pointer</div>
+							<div class="cursor__card cursor__card--grab">cursor grab</div>
+							<div class="cursor__card cursor__card--wait">cursor wait</div>
+							<div class="cursor__card cursor__card--not-allowed">cursor
+								not-allowed</div>
+							<div class="cursor__card cursor__card--zoom-in">cursor zoom-in</div>
+						</div>
+					</section>
+					<section class="pointer pointer--margin">
+						<h2 class="pointer__title title">pointer-events</h2>
+						<div class="pointer__box">
+							<div class="pointer__links"><a href="#"
+									class="pointer__link">link</a></div>
+							<div class="pointer__item"></div>
+						</div>
+					</section>
+					<section class="vertical-text vertical-text--margin">
+						<h2 class="vertical-text__title title">vertical-text</h2>
+						<div class="vertical-text__box">
+							<div class="vertical-text__item vertical-text__item--vertical">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+								</p>
+							</div>
+							<div class="vertical-text__item vertical-text__item--none">
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
+									commodi, vitae ipsum illo minus perferendis delectus, possimus magni
+									animi, iusto aliquid magnam veritatis harum? Cumque nobis repellendus
+									veniam veritatis quibusdam!
+								</p>
+							</div>
+						</div>
+					</section>
+					<section class="clip-path clip-path--margin">
+						<h2 class="clip-path__title title">clip-path</h2>
+						<div class="clip-path__box">
+							<div class="clip-path__card clip-path__card--item1">
+								<img src="img/clip-path.webp" alt="Eiffel Tower">
+							</div>
+							<div class="clip-path__card clip-path__card--item2">
+								<img src="img/clip-path.webp" alt="Eiffel Tower">
+							</div>
+							<div class="clip-path__card clip-path__card--item3">
+								<img src="img/clip-path.webp" alt="Eiffel Tower">
+							</div>
+							<div class="clip-path__card clip-path__card--item4">
+								<img src="img/clip-path.webp" alt="Eiffel Tower">
+							</div>
+							<div class="clip-path__card clip-path__card--item5">
+								<img src="img/clip-path.webp" alt="Eiffel Tower">
+							</div>
+						</div>
+					</section>
+
+				</div>
+
+			</main>
+			<footer class="footer">Tsukanova Olha</footer>
+		</div>
+	</body>
+
+</html>
